@@ -1,0 +1,102 @@
+/* App.css */
+
+/* Apply background image to full page */
+body {
+  background-image: url('C:\Users\BONAL\Desktop\doctor\frontend\public\1.jpg'); /* Make sure this image is inside public/images */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 70px; /* offset for navbar */
+}
+/* Navbar custom styles */
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-left:70px;
+}
+
+.nav-link {
+  font-size: 5.1rem;
+  color: whitesmoke!important;
+  font-weight: 500;
+  margin-left:90px;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button override inside nav */
+.navbar .btn-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .btn-link:hover {
+  color: #ffc107;
+}
+
+/* Container padding */
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top:0px;
+}
+
+/* Responsive image styling if needed later */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+/* Center the login form vertically and horizontally */
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color:whitesmoke; /* Light Bootstrap background */
+  padding: 20px;
+  background-image: url('C:\Users\BONAL\Desktop\doctor\frontend\public\2.jpeg'); /* Make sure this image is inside public/images */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 70px; 
+}
+
+/* Login heading style */
+
+/* Style the form to look neat */
+form {
+  width: 100%;
+  margin-bottom:10%;
+  max-width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field spacing handled by Bootstrap (.mb-2), additional touch */
+input.form-control {
+  font-size: 16px;
+  height: 40px;
+}
+
+/* Button spacing */
+button.btn {
+  width: 120px;
+  font-size: 16px;
+  padding: 10px;
+  margin-left:100px;
+}
+#login{
+  font-size:60px;
+  color:#ffc107;
+}

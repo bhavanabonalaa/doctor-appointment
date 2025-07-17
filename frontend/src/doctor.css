@@ -1,0 +1,51 @@
+/* Base styling for the container */
+.container {
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Doctor name heading */
+.container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Section titles */
+.container h4 {
+  margin-top: 30px;
+  font-weight: 600;
+  color: #007bff;
+}
+
+/* Paragraphs with labels */
+.container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.container p strong {
+  color: #555;
+}
+
+/* Review list styling */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #f0f8ff;
+  border-left: 4px solid #007bff;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  color: #333;
+  font-weight: 500;
+}
