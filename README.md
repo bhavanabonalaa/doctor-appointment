@@ -9,7 +9,7 @@ This is a *responsive web application* that allows patients to easily search for
 
 Watch the full walkthrough of the Virtual Appointment Booking System in action:
 
-👉 [![Watch the demo](https://drive.google.com/file/d/1GiZwPJbYWSwiitjNAaioAnCF_QslwcO_/view?pli=1)
+👉 [![Watch the demo](https://drive.google.com/file/d/1GiZwPJbYWSwiitjNAaioAnCF_QslwcO_/view?usp=sharing)
 
 
 ## 🔧 Features
