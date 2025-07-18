@@ -37,3 +37,37 @@ Watch the full walkthrough of the Virtual Appointment Booking System in action:
 - *Styling*: Bootstrap (for responsive UI)  
 - *Data Storage*: Mongodb
 - (Optional): Lightweight backend with Node.js or JSON Server
+
+🔧 BACKEND DEVELOPMENT (Node.js + Express + MongoDB)
+
+✅ 1. Initialize Backend Project
+
+mkdir backend
+cd backend
+npm init -y
+
+
+✅ 2. Install Required Packages
+
+npm install express mongoose dotenv cors bcryptjs jsonwebtoken
+npm install nodemon --save-dev
+
+
+👉 Then start the server:
+   npm run dev
+
+
+  🌐 FRONTEND DEVELOPMENT (React + Bootstrap)
+   
+✅ 1. Initialize React App
+
+npx create-react-app frontend
+cd frontend
+
+✅ 2. Install Required Packages
+
+npm install axios react-router-dom bootstrap
+
+👉 Then start the server:
+   npm run dev
+
